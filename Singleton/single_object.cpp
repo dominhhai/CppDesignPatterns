@@ -1,8 +1,10 @@
 #include "single_object.hpp"
 #include <iostream>
 
+SingleObject* SingleObject::instance{nullptr};
+
 SingleObject* SingleObject::GetInstance() {
-  static SingleObject* instance;
+  // static SingleObject* instance;
   if (!instance) {
     instance = new SingleObject();
   }

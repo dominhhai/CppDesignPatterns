@@ -10,7 +10,7 @@ class SingleObject {
  private:
   SingleObject() {}
 
-  // static SingleObject* instance;
+  static SingleObject* instance;
 };
 
 #endif  // DP_SINGLETON_SINGLE_OBJECT_H
