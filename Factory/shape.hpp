@@ -2,8 +2,8 @@
 #define DP_FACTORY_SHAPE_H_
 
 class Shape {
-public:
+ public:
   virtual void draw() = 0;
 };
 
-#endif // DP_FACTORY_SHAPE_H_
+#endif  // DP_FACTORY_SHAPE_H_

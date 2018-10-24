@@ -1,5 +1,9 @@
 {
   "code-runner.executorMap": {
     "cpp": "cd $dir && runFiles=`ls *.cpp` && g++ `echo ${runFiles}` -std=c++11 -o $fileNameWithoutExt.out && $dir$fileNameWithoutExt.out"
-  }
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "C_Cpp.clang_format_style": "Google"
 }

@@ -1,11 +1,12 @@
 #include <iostream>
-#include "shape_factory.hpp"
 #include "shape.hpp"
+#include "shape_factory.hpp"
 
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]) {
+  Shape *shape = nullptr;
+
   // circle
-  Shape *shape = ShapeFactory::getShape(ShapeType::kCircle);
+  shape = ShapeFactory::getShape(ShapeType::kCircle);
   shape->draw();
 
   // rectangle
@@ -17,8 +18,7 @@ int main(int argc, char const *argv[])
   shape->draw();
 
   shape = ShapeFactory::getShape((ShapeType)1000);
-  if (shape == nullptr)
-    std::cout << "..... Null Shape ....." << std::endl;
+  if (shape == nullptr) std::cout << "..... Null Shape ....." << std::endl;
 
   return 0;
 }

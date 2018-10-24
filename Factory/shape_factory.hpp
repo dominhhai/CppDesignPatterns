@@ -3,15 +3,11 @@
 
 #include "shape.hpp"
 
-enum ShapeType {
-  kCircle,
-  kRectangle,
-  kSquare
-};
+enum ShapeType { kCircle, kRectangle, kSquare };
 
 class ShapeFactory {
-public:
-    static Shape *getShape(ShapeType shape_type);
+ public:
+  static Shape *getShape(ShapeType shape_type);
 };
 
-#endif // DP_FACTORY_SHAPE_FACTORY_H_
+#endif  // DP_FACTORY_SHAPE_FACTORY_H_

@@ -3,9 +3,9 @@
 
 #include "shape.hpp"
 
-class Rectangle: public Shape {
-public:
+class Rectangle : public Shape {
+ public:
   void draw() override;
 };
 
-#endif // DP_FACTORY_RECTANGLE_H_
+#endif  // DP_FACTORY_RECTANGLE_H_

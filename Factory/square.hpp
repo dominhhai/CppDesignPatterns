@@ -3,9 +3,9 @@
 
 #include "shape.hpp"
 
-class Square: public Shape {
-public:
+class Square : public Shape {
+ public:
   void draw() override;
 };
 
-#endif // DP_FACTORY_SQUARE_H_
+#endif  // DP_FACTORY_SQUARE_H_
