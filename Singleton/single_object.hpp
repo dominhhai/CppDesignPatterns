@@ -1,6 +1,6 @@
 
-#if !defined(DP_SINGLETON_SINGLE_OBJECT_H)
-#define DP_SINGLETON_SINGLE_OBJECT_H
+#if !defined(DP_SINGLETON_SINGLE_OBJECT_H_)
+#define DP_SINGLETON_SINGLE_OBJECT_H_
 
 class SingleObject {
  public:
@@ -13,4 +13,4 @@ class SingleObject {
   static SingleObject* instance;
 };
 
-#endif  // DP_SINGLETON_SINGLE_OBJECT_H
+#endif  // DP_SINGLETON_SINGLE_OBJECT_H_
