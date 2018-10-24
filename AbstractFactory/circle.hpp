@@ -6,7 +6,7 @@
 
 class Circle : public Shape {
  public:
-  void draw() override;
+  void Draw() override;
 };
 
 #endif  // DP_ABSTRACT_FACTORY_CIRCLE_H_

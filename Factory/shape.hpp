@@ -3,7 +3,7 @@
 
 class Shape {
  public:
-  virtual void draw() = 0;
+  virtual void Draw() = 0;
 };
 
 #endif  // DP_FACTORY_SHAPE_H_

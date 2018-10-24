@@ -6,7 +6,7 @@
 
 class Green : public Color {
  public:
-  void fill() override;
+  void Fill() override;
 };
 
 #endif  // DP_ABSTRACT_FACTORY_GREEN_H

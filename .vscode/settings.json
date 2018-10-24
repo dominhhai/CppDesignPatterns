@@ -5,5 +5,17 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "C_Cpp.clang_format_fallbackStyle": "Google",
-  "C_Cpp.clang_format_style": "Google"
+  "C_Cpp.clang_format_style": "Google",
+  "files.associations": {
+    "__config": "cpp",
+    "__nullptr": "cpp",
+    "cstddef": "cpp",
+    "exception": "cpp",
+    "initializer_list": "cpp",
+    "new": "cpp",
+    "stdexcept": "cpp",
+    "type_traits": "cpp",
+    "typeinfo": "cpp",
+    "algorithm": "cpp"
+  }
 }

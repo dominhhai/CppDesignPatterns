@@ -4,22 +4,22 @@ int main(int argc, char const* argv[]) {
   AbstractFactory* factory = nullptr;
 
   // shape
-  factory = FactoryProducer::getFactory(FactoryType::kShape);
+  factory = FactoryProducer::GetFactory(FactoryType::kShape);
   // shape - circle
-  factory->getShape(ShapeType::kCircle)->draw();
+  factory->GetShape(ShapeType::kCircle)->Draw();
   // shape - square
-  factory->getShape(ShapeType::kSquare)->draw();
+  factory->GetShape(ShapeType::kSquare)->Draw();
   // shape - rectangle
-  factory->getShape(ShapeType::kRectangle)->draw();
+  factory->GetShape(ShapeType::kRectangle)->Draw();
 
   // color
-  factory = FactoryProducer::getFactory(FactoryType::kColor);
+  factory = FactoryProducer::GetFactory(FactoryType::kColor);
   // color - Red
-  factory->getColor(ColorType::kRed)->fill();
+  factory->GetColor(ColorType::kRed)->Fill();
   // color - Green
-  factory->getColor(ColorType::kGreen)->fill();
+  factory->GetColor(ColorType::kGreen)->Fill();
   // color - Blue
-  factory->getColor(ColorType::kBlue)->fill();
+  factory->GetColor(ColorType::kBlue)->Fill();
 
   return 0;
 }

@@ -1,4 +1,4 @@
 #include "green.hpp"
 #include <iostream>
 
-void Green::fill() { std::cout << "Fill Green" << std::endl; }
+void Green::Fill() { std::cout << "Fill Green" << std::endl; }

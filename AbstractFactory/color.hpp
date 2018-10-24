@@ -3,7 +3,7 @@
 
 class Color {
  public:
-  virtual void fill() = 0;
+  virtual void Fill() = 0;
 };
 
 #endif  // DP_ABSTRACT_FACTORY_COLOR_H_

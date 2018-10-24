@@ -5,7 +5,7 @@
 
 class Square : public Shape {
  public:
-  void draw() override;
+  void Draw() override;
 };
 
 #endif  // DP_FACTORY_SQUARE_H_

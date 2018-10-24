@@ -6,7 +6,7 @@
 
 class Rectangle : public Shape {
  public:
-  void draw() override;
+  void Draw() override;
 };
 
 #endif  // DP_ABSTRACT_FACTORY_RECTANGLE_H

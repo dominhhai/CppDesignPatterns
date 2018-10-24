@@ -3,7 +3,7 @@
 #include "green.hpp"
 #include "red.hpp"
 
-Color* ColorFactory::getColor(ColorType color_type) {
+Color* ColorFactory::GetColor(ColorType color_type) {
   switch (color_type) {
     case ColorType::kRed:
       return new Red();

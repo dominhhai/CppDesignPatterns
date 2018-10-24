@@ -8,7 +8,7 @@ enum FactoryType { kShape, kColor };
 
 class FactoryProducer {
  public:
-  static AbstractFactory* getFactory(FactoryType factory_type);
+  static AbstractFactory* GetFactory(FactoryType factory_type);
 };
 
 #endif  // DP_ABSTRACT_FACTORY_FACTORY_PRODUCER_H

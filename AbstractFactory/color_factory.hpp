@@ -6,8 +6,8 @@
 
 class ColorFactory : public AbstractFactory {
  public:
-  Color* getColor(ColorType color_type) override;
-  Shape* getShape(ShapeType shape_type) override { return nullptr; };
+  Color* GetColor(ColorType color_type) override;
+  Shape* GetShape(ShapeType shape_type) override { return nullptr; };
 };
 
 #endif  // DP_ABSTRACT_FACTORY_COLOR_FACTORY_H

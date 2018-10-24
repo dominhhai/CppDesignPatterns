@@ -6,18 +6,18 @@ int main(int argc, char const *argv[]) {
   Shape *shape = nullptr;
 
   // circle
-  shape = ShapeFactory::getShape(ShapeType::kCircle);
-  shape->draw();
+  shape = ShapeFactory::GetShape(ShapeType::kCircle);
+  shape->Draw();
 
   // rectangle
-  shape = ShapeFactory::getShape(ShapeType::kRectangle);
-  shape->draw();
+  shape = ShapeFactory::GetShape(ShapeType::kRectangle);
+  shape->Draw();
 
   // square
-  shape = ShapeFactory::getShape(ShapeType::kSquare);
-  shape->draw();
+  shape = ShapeFactory::GetShape(ShapeType::kSquare);
+  shape->Draw();
 
-  shape = ShapeFactory::getShape((ShapeType)1000);
+  shape = ShapeFactory::GetShape((ShapeType)1000);
   if (shape == nullptr) std::cout << "..... Null Shape ....." << std::endl;
 
   return 0;
